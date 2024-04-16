@@ -1,0 +1,53 @@
+$letra: lato;
+$color1: black;
+$color2: white;
+$color3: #470247;
+$size1: 40px;
+$sizep: 18px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 180px;
+    height: 150px;
+    background-color: $color3;
+    font-family: $letra;
+    color: $color2;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 7px rgb(159, 159, 159) inset;
+}
+
+h1{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: $size1;
+    font-weight: 400;
+}
+
+.precios{
+    margin: 5px 20px 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moneda{
+    font-family: $letra;
+    font-weight: 300;
+    font-size: $sizep;
+}
+
+.precio{
+    font-family: $letra;
+    font-weight: 600;
+    font-size: $sizep;
+
+}
+
+
+

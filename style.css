@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 180px;
+  height: 150px;
+  background-color: #470247;
+  font-family: lato;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 7px rgb(159, 159, 159) inset;
+}
+
+h1 {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.precios {
+  margin: 5px 20px 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moneda {
+  font-family: lato;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.precio {
+  font-family: lato;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
